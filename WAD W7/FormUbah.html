@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Menambah Nilai</title>    
+</head>
+
+<body>
+    <form name = "formNilai" method = "post" action = "UbahNilai.php">
+        <fieldset>
+            <legend>Masukkan Nilai</legend>
+            <label for = "nomor">Nomor Mahasiswa:</label> <br>
+            <input type = "number" name = "txtNum" id = "txtNum"> <br><br>
+            <label for = "foto">Foto Mahasiswa:</label> <br>
+            <input type = "file" name = "txtPhoto" id = "txtPhoto"> <br><br>
+            <label for = "nim">NIM Mahasiswa:</label> <br>
+            <input type = "radio" name = "txtNIM" id = "txtNIM"> <br><br>
+            <label for = "name">Nama Mahasiswa:</label> <br>
+            <input type = "text" name = "txtName" id = "txtName"> <br><br>
+            <label for = "lesson">Nama Matakuliah:</label> <br>
+            <input type = "text" name = "txtLesson" id = "txtLesson"> <br><br>
+            <label for = "score">Nilai Matakuliah:</label> <br>
+            <input type="number" name = "txtScore" id = "txtScore"> <br><br>
+            <br><br>
+            <input type = "submit" value = "Tambahkan">
+        </fieldset>
+    </form>
+    <br>
+</body>
+</html>
